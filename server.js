@@ -15,6 +15,10 @@ app.get('/contact', (req, res) => {
     res.send('Contact Us');
 })
 
+app.get('/services', (req, res) => {
+    res.send('Our Services');
+}
+);
 app.listen(3000, () => {
     console.log('Server is running on http://localhost:3000');
     }  

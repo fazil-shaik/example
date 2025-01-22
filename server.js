@@ -17,8 +17,11 @@ app.get('/contact', (req, res) => {
 
 app.get('/services', (req, res) => {
     res.send('Our Services');
-}
-);
+});
+
+app.get('/products', (req, res) => {
+    res.send('Our Products');
+});
 app.listen(3000, () => {
     console.log('Server is running on http://localhost:3000');
     }  
